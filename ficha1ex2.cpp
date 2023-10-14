@@ -16,5 +16,5 @@ int main() {
     cout << "\n A tua idade -> " << x << " | Nome: "<<nome;
 
     return 0;
-    // a comparar com o c99 normal nao estemos cá de estar a defenir o tipo de varivel ex: %d,%c:%f é algo mais geral
+   
 }
