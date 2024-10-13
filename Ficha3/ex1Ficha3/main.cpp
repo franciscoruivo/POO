@@ -1,31 +1,25 @@
 #include "Tabela.h"
 
 int main() {
-    // Teste 1: Inicialização com zeros
+
     Tabela t1;
     std::cout << "Inicializado com zeros: ";
     for (int num : t1.lista()) {
         std::cout << num << " | ";
     }
     std::cout << std::endl;
-
-    // Teste 2: Inicialização com valor específico
     Tabela t2(5);
     std::cout << "Inicializado com valor 5: ";
     for (int num : t2.lista()) {
         std::cout << num << " | ";
     }
     std::cout << std::endl;
-
-    // Teste 3: Inicialização com sequência crescente (a = 3, b = 2)
     Tabela t3(3, 2);
     std::cout << "Inicializado com sequencia crescente (a = 3, b = 2): ";
     for (int num : t3.lista()) {
         std::cout << num << " | ";
     }
     std::cout << std::endl;
-
-    // Teste 4: Inicialização com initializer_list
     Tabela t4({ 1, 2, 3, 4, 5 });
     std::cout << "Inicializado com initializer_list (1, 2, 3, 4, 5): ";
     for (int num : t4.lista()) {
@@ -67,7 +61,6 @@ int main() {
     // Teste receber um objeto
     t2.recebe(t3);
 
-    // Teste 5: Devolve um objeto
     std::cout << "Tabela 5: \n";
     for (int num : t5.lista()) {
         std::cout << num << " | ";
