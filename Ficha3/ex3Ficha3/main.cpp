@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    Pessoa a("Francisco Ruivo", 21,1.82, 'T');
+    Pessoa a("Francisco Ruivo", 21,1.82, 'M');
     cout << a.toString();
     return 0;
 }
