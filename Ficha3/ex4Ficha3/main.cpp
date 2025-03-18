@@ -24,7 +24,7 @@ int main() {
 
         if (opcao == "1") {
             string codigoTentativa;
-            cout << "Digite o codigo do cofre: ";
+            cout << "Indique o codigo do cofre: ";
             cin >> codigoTentativa;
             cout << cofre.abrir(codigoTentativa) << endl;
 
@@ -50,17 +50,17 @@ int main() {
 
         } else if (opcao == "6") {
             string codigoAtual, novoCodigo;
-            cout << "Digite o codigo atual: ";
+            cout << "Indique o codigo atual: ";
             cin >> codigoAtual;
             cout << cofre.mudarCodigo(codigoAtual, novoCodigo) << endl;
 
-            cout << "Digite o novo codigo novamente: ";
+            cout << "Indique o novo codigo novamente: ";
             cin >> novoCodigo;
             cout << cofre.mudarCodigo(codigoAtual, novoCodigo) << endl;
 
         } else if (opcao == "7") {
             string codigoDesbloqueio;
-            cout << "Digite o codigo de desbloqueio: ";
+            cout << "Indique o codigo de desbloqueio: ";
             cin >> codigoDesbloqueio;
             cout << cofre.desbloquear(codigoDesbloqueio) << endl;
 
