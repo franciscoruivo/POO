@@ -61,7 +61,7 @@ int main() {
     return 0;
 }
 /*Namespaces são utilizados para organizar o código e evitar conflitos de nomes em projetos grandes.
-Diferentes Formas de Uso: O código demonstra como utilizar namespaces de maneiras que aumentam a clareza e evitam conflitos:
-Usar     o prefixo do namespace.
-Usar using para funções específicas.
+utilizar namespaces aumenta a clareza e evita conflitos:
+Usar o prefixo do namespace.
+Usar using para funções específicas
 Usar using namespace para permitir chamadas diretas.*/
